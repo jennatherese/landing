@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 100px;
+    min-height: 300px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+header .btn {
+    display: inline-block;
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background: #d34714;
+}
+
+/* Call to Action Section */
+#cta {
+    background: #fff;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#cta h2 {
+    font-size: 2.5rem;
+}
+
+#cta p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+#cta .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#cta .btn:hover {
+    background: #555;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #e8491d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
